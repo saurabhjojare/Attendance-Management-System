@@ -19,7 +19,6 @@ public class propertiesLoadingApp {
         System.out.println("Current Directory = \"" + completePath + "\"");
 
 
-
         // Create a Properties object to hold the properties
         Properties properties = new Properties();
         // Create a FileInputStream to read the properties file
@@ -33,6 +32,7 @@ public class propertiesLoadingApp {
         String url = properties.getProperty("url");
         String userName = properties.getProperty("userName");
         String password = properties.getProperty("password");
+ 
 
         // Print the properties
         System.out.println("driverClassName: "+driverClassName);
