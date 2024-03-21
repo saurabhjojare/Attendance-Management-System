@@ -1,0 +1,22 @@
++------------------+       +------------------+       +------------------+       +------------------+
+|    Employees     |       |   Departments    |       |       Roles      |       |   EmployeeBonus  |
++------------------+       +------------------+       +------------------+       +------------------+
+| EmployeeID (PK)  |       | DepartmentID (PK)|       | RoleID (PK)      |       | BonusID (PK)     |
+| FirstName        |       | DepartmentName   |       | RoleName         |       | EmployeeID (FK)  |
+| LastName         |       +------------------+       +------------------+       | BonusDate        |
+| DateOfBirth      |                                                             | Amount           |
+| Gender           |                                                             +------------------+
+| JoiningDate      |                                                                        
+| Salary           |                                                                                               
++------------------+                                                                                                                              
+                          
++------------------------+      +------------------+      +-----------------------+      +--------------------+
+|       Attendance       |      |       Salary     |      | Employees_Departments |      |   Employees_Roles  |
++------------------------+      +------------------+      +-----------------------+      +--------------------+
+| AttendanceID (PK)      |      | SalaryID (PK)    |      | EmployeeID (PK, FK)   |      | EmployeeID (PK, FK)|
+| EmployeeID (FK) ------ |      | EmployeeID (FK)  |      | DepartmentID (PK, FK) |      | RoleID (PK, FK)    |
+| AttendanceDate         |      | SalaryDate       |      +-----------------------+      +--------------------+
+| Status                 |      | GrossSalary      |
++------------------------+      | Deductions       |
+                                | NetSalary        |
+                                +------------------+
