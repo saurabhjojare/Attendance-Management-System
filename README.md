@@ -21,10 +21,6 @@ This project is aimed at facilitating the management of student attendance effic
 
 9. **Show the Best-Attended Student in the Year**: Recognize and showcase the student with the highest attendance throughout the year.
 
-10. **Reward for High Attendance**: Reward students with certificates or other incentives if their monthly attendance exceeds 80%.
-
-11. **Bonus for Annual Attendance**: Grant students special recognition or awards if their annual attendance exceeds 80%.
-
 ## Usage
 
 To use this system effectively, follow these steps:
