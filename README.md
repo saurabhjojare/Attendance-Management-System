@@ -37,7 +37,7 @@ To use this system effectively, follow these steps:
 ## Installation
 
 1. Clone this repository to your local machine.
-2. Install the required dependencies using `npm install` or `yarn install`.
+2. Install the required dependencies using `npm install`.
 3. Configure the database connection settings in the `config` file.
 4. Start the application using `npm start` or `yarn start`.
 
