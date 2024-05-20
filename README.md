@@ -1,39 +1,38 @@
-# Employee Salary Management System
-
-This project is aimed at facilitating the management of employee salaries efficiently. It provides a range of features to handle various aspects of employee attendance and salary calculation.
+# Attendance Management System
+This project is aimed at facilitating the management of student attendance efficiently. It provides a range of features to handle various aspects of student attendance and performance tracking.
 
 ## Features
 
-1. **Add New Employee/View/Delete/Update/Search Employee**: Easily manage employee information, including adding new employees, viewing, deleting, updating, and searching existing employee records.
+1. **Add New Student/View/Delete/Update/Search Student**: Easily manage student information, including adding new students, viewing, deleting, updating, and searching existing student records.
 
-2. **Take Attendance of Employees**: Record daily attendance of employees to track their presence in the workplace.
+2. **Record Attendance of Students**: Record daily attendance of students to track their presence in the classes.
 
-3. **Calculate Employee Salary**: Automatically calculate the salary of employees based on their attendance and predefined salary structure.
+3. **Calculate Attendance Percentage**: Automatically calculate the attendance percentage of students based on their attendance records.
 
-4. **Show Employee Salary by Name or ID**: Retrieve and display the salary details of employees by their names or unique identification numbers.
+4. **Show Student Attendance by Name or ID**: Retrieve and display the attendance details of students by their names or unique identification numbers.
 
-5. **Show All Employee Salary Date-wise**: View the salary details of all employees categorized by date.
+5. **Show All Student Attendance Date-wise**: View the attendance details of all students categorized by date.
 
-6. **Show All Employee Salary Month-wise**: Organize and display the salary information of all employees on a monthly basis.
+6. **Show All Student Attendance Month-wise**: Organize and display the attendance information of all students on a monthly basis.
 
-7. **Show Salary Between Two Specified Dates**: Generate reports showing employee salaries within a specified date range.
+7. **Show Attendance Between Two Specified Dates**: Generate reports showing student attendance within a specified date range.
 
-8. **Show Best-Attended Employee List Month-wise**: Identify and display the employees with the best attendance records on a monthly basis.
+8. **Show Best-Attended Student List Month-wise**: Identify and display the students with the best attendance records on a monthly basis.
 
-9. **Show the Best-Attended Employee in the Year**: Recognize and showcase the employee with the highest attendance throughout the year.
+9. **Show the Best-Attended Student in the Year**: Recognize and showcase the student with the highest attendance throughout the year.
 
-10. **Extra Salary for High Attendance**: Reward employees with 4 days' extra salary if their monthly attendance exceeds 80%.
+10. **Reward for High Attendance**: Reward students with certificates or other incentives if their monthly attendance exceeds 80%.
 
-11. **Bonus Salary for Annual Attendance**: Grant employees 2 months' bonus salary if their annual attendance exceeds 80%.
+11. **Bonus for Annual Attendance**: Grant students special recognition or awards if their annual attendance exceeds 80%.
 
 ## Usage
 
 To use this system effectively, follow these steps:
 
-1. **Employee Management**: Add, view, update, or delete employee records as needed.
-2. **Attendance Tracking**: Record daily attendance for each employee.
-3. **Salary Calculation**: Let the system automatically calculate salaries based on attendance and predefined rules.
-4. **Reporting**: Utilize various reporting features to monitor attendance trends, salary distributions, and bonus eligibility.
+1. **Student Management**: Add, view, update, or delete student records as needed.
+2. **Attendance Tracking**: Record daily attendance for each student.
+3. **Attendance Calculation**: Let the system automatically calculate attendance percentages based on the recorded data.
+4. **Reporting**: Utilize various reporting features to monitor attendance trends, recognize high-attendance students, and identify areas for improvement.
 
 ## Installation
 
